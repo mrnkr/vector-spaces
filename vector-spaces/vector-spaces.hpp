@@ -20,7 +20,7 @@ namespace vectorspaces {
     using namespace matrix;
     using namespace equationsystems;
     
-    // Receives the set to work with and makes the system necessary with a given set of results
+    // Receives the set to work with and makes the necessary system with a given set of results
     vector<vector<double>> makeSystem(vector<vector<double>> set, vector<double> results);
     
     // To know if a set is linearly independent none of its components can be linear combos of other vectors inside the set
